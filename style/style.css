@@ -1,0 +1,37 @@
+header{
+        opacity: 1;
+        background-image: linear-gradient(151deg, rgba(0, 14, 66, .6) 4%, rgba(255, 255, 255, 0) 80%), url(./images/hero\ cover\ Small.jpeg);
+        background-position: 0 0, 70% 45%;
+        background-repeat: repeat, no-repeat;
+        background-attachment: scroll, scroll;
+        width: 100%;
+        height: 100%;
+        position: static;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+.ul-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    justify-content: space-between;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: unset;
+}
+.li-nav{
+    font-size: 18px;
+    /* color: white; */
+}
+.btn1-nav{
+    border: 0px solid;
+}
