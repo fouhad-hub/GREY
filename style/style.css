@@ -450,7 +450,217 @@ h1{
     height: 100%;
     margin-left: 300px;
 }
+.section-csr{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.border-container{
+    margin-top: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+.border-img{
+    width: 520px;
+    height: 520px;
+}
+.border-txt-area{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.mad-h1{
+    color: black;
+    font-size: 3.5rem;
+    line-height: 1;
+}
+.mad-p{
+    line-height: 1.6em;
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: #363f52;
+}
+.section-heading{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heading-24{
+    font-size: 3.5rem;
+}
+.coloroverlay-container{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    margin-right: 0;
+    padding-bottom: 200px;
+}
+.coloroverlay{
+    width: 690px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px;
+    background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/661f9d62c61b37f6cf7c819b_invoicing.webp);
+    z-index: 1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coloroverlay-2{  
+    width: 690px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px;
+    background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/661fa105c456f832cb2ab755_bill-payments.webp);
+    z-index: 1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coloroverlay-p{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+.coloroverlay-h2{
+    color:white;
+    font-size: 2em;
+    line-height: 1.2;
+    margin-top: 350px;
+}
+.div-block{
+    margin-top: 0px;
+    background-color: white;
+    padding-bottom: 100px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius:50px ;
+    margin-bottom: 0px;
+}
+.div-block-h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 200px;
+}
+.testimonial-block{
+    max-width: 1200px;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #14181f;
+    padding-right: 100px;
+    padding-top: 10px;
+}
+.div-block-img-container{
+    width: 462.4px ;
+    height: 390.09px;
+    margin-top: 50px;
+}
+.div-block-img{
+    background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/65b3e2d80cd27ee15f9a86c9_F2ES9lVW8AcXioW.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    width: 100% ;
+    max-width: 100%;
+    height: 100%;
+}
+.div-block-txt-container{
+    margin-top: 100px;
+}
+.div-block-txt{
+    color: #fff;
+    font-size: 2.5em;
+    line-height: 1.2;
+}
+.heading-4-section{
+    margin-top: 0px;
+    padding-top: 100px;
+    background-color: #14181f;
+}
+.heading-4{
+    color: #ebecf0;
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.link-container{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #333;
+}
+.google-link{
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.google-img{
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 175px;
+    height: 50px;
+}
+.ios-link{
+    border-radius: 8px;
+    margin-left: 5px;
+}
+.ios-img{
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 175px;
+    height: 50px;
+}
+.footer{
+    margin-top: 30px;
+    padding-bottom: 200px;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted #333;
+}
+.h-footer{
+    color: white;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5;
+}
+.grey-email{
+    color:#3d87f5;
+    font-size: 14px;
+    font-weight: 600;
+}
+.links-f{
+    color:#939aaa;
+    font-size: 14px;
+    font-weight: 600;
+}
+.footer-txt{
+    font-size: 14px;
+    color:#939aaa;
+    margin-left: 200px;
+    line-height: 1.7;
+    padding-top: 30px;
+    padding-bottom: 100px;
 
+}
 
 
 
