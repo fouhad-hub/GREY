@@ -456,19 +456,20 @@ h1{
 }
 .section-csr{
     background-color: white;
+    padding-top: 100px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 .border-container{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     background-color: whitesmoke;
     display: flex;
     justify-content: space-between;
-    max-width: 1300px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding: 50px;
-    border-radius: 10px;
+    border-radius: 18px;
     margin-bottom: 200px;
 }
 .border-img{
@@ -685,14 +686,33 @@ h1{
 
 
 /* PROJECT DESIGN */
+
 .hero-cover-2-container{
-    margin-top: 200px;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 100px;
+    /* width: 100%; */
+    width: 1600px;
     position: relative;
-    height: 100vh;
+}
+.cover-img-2{
+    z-index: 199;
+    pointer-events: auto;
+    object-fit: cover;
+    inset: auto 0% 0% auto;
+    max-width: none;
+    position: absolute;
+}
+.hero-cover-2-container-section{
+    display: flex;
+    position: relative;
+    height: 90vh;
     overflow: hidden;
+    width: 100%;
+}
+.hero-cover-2-txt{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
 }
 .hero-cover-2{
     position:absolute;
@@ -706,33 +726,58 @@ h1{
 }
 .feature-img-container-product{
     overflow: hidden;
+    
+}
+.hero-cover-3-container{
+    width: 564px;
+    height: 499px;
+    position: relative;
+    overflow: hidden;
 }
 .hero-cover-3{
-    width: 30%;
+    /* background-image: url(https://cdn.prod.website-files.com/6360022338a81bd6fdbb1145/66951942e2c8c3349c730b3e_Hand%20replace%20new.webp); */
+    height: 135vh;
+    position: absolute;
+    inset: 0% 65% auto;
+    /* width: 274px; */
+    /* width: 30%;
     position: absolute;
     top: 100px;
     right: 0px;
     height: 100%;
     max-height: 80vh;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
-.h1-project{
+.h1-product{
     color:black;
     letter-spacing: -.02em;
     justify-content: center;
-    font-size: 4.6rem;
+    font-size: 4.5rem;
     font-weight: 700;
     line-height: 1;
+    margin: 0px;
 }
-.p-h1-project{
+.p-h1-product{
     color: #363f52;
-    text-align: left;
-    justify-content: flex-start;
-    align-self: flex-start;
+    /* text-align: left; */
+    /* justify-content: flex-start; */
+    /* align-self: flex-start; */
     max-width: 36rem;
     font-size: 1.1rem;
     line-height: 28px;
+}
+.product-btn-h1{
+    height: 48px;
+    width: 123px;
+    border: 2px solid rgba(240, 242, 245, .3);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    color: #f0f2f5;
+    background-color: #2467e3;
+    border-radius: 8px;
 }
 .div-feature-section{
     max-width: 1200px;
@@ -1101,6 +1146,10 @@ body{
     font-size: 28px;
     margin-bottom: 24px;
 }
+.svj-img-learn{
+    width: 28px;
+    height: 28px;
+}
 .inp-txt-learn{
     width: 950px;
     height: 40px;
@@ -1179,4 +1228,97 @@ body{
 .p-learn{
     font-size: 16px;
     line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* company */
+.body-company{
+    background-color: #f4f4f4;
+}
+.nav-company{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.nav-company-section{
+    /* margin: 50px; */
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey-company{
+    max-width:120px;
+    height: 56px;
+}
+.button-company{
+    width: 40px;
+    height: 34px;
+    background-color: white;
+    border: 1px solid black;
+}
+.border-container-company{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: white;
+}
+.border-company-body{
+    display: flex;
+    justify-content: space-between;
+}
+.border-company{
+
+}
+.h1-company{
+    color: #383838;
+    font-size: 1.86rem;
+    /* line-height: 2.4; */
+}
+.P-h1-company{
+    color:#686868 ;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 34px;
+}
+.h4-company{
+    color: #383838;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+
+.li-1-company{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.li-2-company{
+   
+    width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.heading-border{
+    font-size: 1.2rem;
+    color: #0772b3;
 }
