@@ -525,11 +525,16 @@ h1{
 .heading-24{
     font-size: 3.5rem;
 }
+.overlay-animation{
+    max-width: 1350px;
+    overflow: scroll;
+}
 .coloroverlay-container{
+    width: 3200px;
     display: flex;
     gap: 20px;
-    margin-left: 50px;
-    margin-right: 0;
+    /* margin-left: 50px;
+    margin-right: 0; */
     padding-bottom: 200px;
 }
 .coloroverlay{
@@ -544,11 +549,34 @@ h1{
     background-size: cover;
 }
 .coloroverlay-2{  
-    width: 690px;
+    /* width: 690px; */
+    width: 800px;
     height: 500px;
     border-radius: 10px;
     padding: 50px;
     background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/661fa105c456f832cb2ab755_bill-payments.webp);
+    z-index: 1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coloroverlay-3{  
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px;
+    background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/661fa02f1a1cbd66f9971f03_gift-cards.webp);
+    z-index: 1;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coloroverlay-4{  
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 50px;
+    background-image: url(https://cdn.prod.website-files.com/636a85d290ee58e70c17e1c0/661f9fdf16ec65a738d512f0_expense-size.webp);
     z-index: 1;
     background-position: 50%;
     background-repeat: no-repeat;
