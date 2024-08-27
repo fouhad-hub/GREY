@@ -1,3 +1,15 @@
-# Grey website
+## Authors
 
-This repo is me playing around with HTML and CSS and creating a clone of the [GREY Website](https://grey.co/)
+- [@fouhad-hub](https://www.github.com/octokatherine)
+
+
+# Project Title
+
+this is a personal project to recreate the GREY website
+
+
+## Demo
+
+website link
+
+https://greyf.netlify.app
